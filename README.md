@@ -3,3 +3,6 @@
 2. Replace `username` and `password` with your credentials in `login.sh`
    file.
 3. Run the script.
+
+
+For logging out, just run `logout.sh` script
