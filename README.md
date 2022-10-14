@@ -1,8 +1,16 @@
 ## Login to Ferdowsi University of Mashhad automatically
-1. Connect to the university networks
-2. Replace `username` and `password` with your credentials in `login.sh`
-   file.
-3. Run the script.
 
+### Config
+Create config file in `~/.config/fumnet/config` with following settings:
 
-For logging out, just run `logout.sh` script
+```
+username="YOUR_USERNAME"
+password="YOUR_PASSWORD"
+
+connection_ids=("FUM-Fajr1" "WiFi-FUM")
+```
+
+### Integration with network manager for auto connection
+Run `install.sh` script:
+
+`sudo sh ./install.sh`
